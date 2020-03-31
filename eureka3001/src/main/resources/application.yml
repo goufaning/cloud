@@ -1,0 +1,12 @@
+server:
+    port: 3001
+eureka:
+    server:
+    instance:
+        hostname: localhost
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:3004/eureka/, http://localhost:3003/eureka/
+spring:
+    application:
+        name: server3001
